@@ -380,7 +380,7 @@ export const DCSCMIP5 = {
     },
     infoDailyData: function () {
       return {
-        // text: this.$gettext('<a href="{link}" target="_blank">Contact the Climate Services Support Desk</a> if you\'re interested in daily data'),
+        // text: this.$gettext('<a href="{link}" target="_blank">Contact the Climate Services Support Desk</a> if you\'re interested in daily data'), 
         text: this.$gettext('Visit <a href="{link}" target="_blank">ClimateData.ca</a> to access daily data'),
         link: this.climateDataLink
       }
