@@ -216,7 +216,7 @@ export default {
       var probOptions = {}
 
       // Probability Products
-      // Couldn't hardcode due to needing to translate
+      // Couldn't hardcode due to needing to translate.
       probOptions['-ProbNearNormal'] = this.$gettext('Probability near normal')
       probOptions['-ProbAboveNormal'] = this.$gettext('Probability above normal')
       probOptions['-ProbBelowNormal'] = this.$gettext('Probability below normal')
